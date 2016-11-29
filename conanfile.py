@@ -6,8 +6,7 @@ class NodConan(ConanFile):
     version = "0.3.4"
     settings = "os", "compiler", "build_type", "arch"
     url = "https://github.com/fr00b0/conan-nod"
-    license = "Apache-2.0"
-    author = "Fredrik Berggren"
+    license = "MIT"
 
     header_file = "nod.hpp"
     download_url = "https://raw.githubusercontent.com/fr00b0/nod/74097db0c8e7bbc9807b5ab0c0b527364e1774b1/include/nod/nod.hpp"
